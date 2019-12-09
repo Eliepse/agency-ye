@@ -1,0 +1,8 @@
+
+# NPM
+node_modules/
+
+# Parcel
+.cache/
+dist/
+public/

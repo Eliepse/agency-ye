@@ -1,0 +1,38 @@
+{
+  "name": "agency-ye",
+  "version": "1.0.0",
+  "description": "The website of YE!, a design and illustration agency",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel serve src/index.html --open",
+    "build": "parcel build src/index.html --out-dir=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eliepse/agency-ye.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eliepse/agency-ye/issues"
+  },
+  "homepage": "https://github.com/Eliepse/agency-ye#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-structurize": "^1.1.6"
+  },
+  "parcel-plugin-structurize": {
+    "scripts": {
+      "match": "*.{js,js.map}",
+      "folder": "js"
+    },
+    "styles": {
+      "match": "*.{css,css.map}",
+      "folder": "css"
+    },
+    "assets": {
+      "match": "*.{png,svg,jpg,jpg2,jpeg,gif,bmp,webm}",
+      "folder": "assets"
+    }
+  }
+}
