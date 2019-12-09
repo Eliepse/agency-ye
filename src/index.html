@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -28,32 +28,46 @@
 
 <body>
 
-    <header>
-        <div>
-            <img src="./img/190907-ye-logo-RGB.svg" width="230" alt="Logo of YE! Agency">
-        </div>
-    </header>
-    
-    <section></section>
+    <main>
+        <header>
+            <img class="blob blob-1" src="./img/blob-1.svg" />
+            <img class="blob blob-2" src="./img/blob-2.svg" />
+            <div class="header-logo">
+                <img src="./img/190907-ye-logo-RGB.svg" width="230" alt="Logo of YE! Agency">
+            </div>
+            <div class="header-text">
+                <img class="blob blob-3" src="./img/blob-3.svg" />
+                <h1 class="title-main">YÉ! Agency</h1>
+                <p class="subtitle-main">Design & Illustration</p>
+                <p class="">
+                    Nous sommes une agence franco-chinoise<br>
+                    qui aime créer des produits de qualité.
+                </p>
+            </div>
+        </header>
 
+        <section></section>
+    </main>
 
     <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
     <script>
-        (function(f, a, t, h, o, m){
-            a[h]=a[h]||function(){
-            (a[h].q=a[h].q||[]).push(arguments)
+        (function (f, a, t, h, o, m) {
+            a[h] = a[h] || function () {
+                (a[h].q = a[h].q || []).push(arguments)
             };
-            o=f.createElement('script'),
-            m=f.getElementsByTagName('script')[0];
-            o.async=1; o.src=t; o.id='fathom-script';
-            m.parentNode.insertBefore(o,m)
+            o = f.createElement('script'),
+                m = f.getElementsByTagName('script')[0];
+            o.async = 1;
+            o.src = t;
+            o.id = 'fathom-script';
+            m.parentNode.insertBefore(o, m)
         })(document, window, '//fathom.eliepse.fr/tracker.js', 'fathom');
         fathom('set', 'siteId', 'KQLMS');
         fathom('trackPageview');
     </script>
     <!-- / Fathom -->
-  
-  
+
+
 </body>
 
 </html>
