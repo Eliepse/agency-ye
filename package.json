@@ -19,7 +19,8 @@
   "homepage": "https://github.com/Eliepse/agency-ye#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-structurize": "^1.1.6"
+    "parcel-plugin-structurize": "^1.1.6",
+    "sass": "^1.23.7"
   },
   "parcel-plugin-structurize": {
     "scripts": {
@@ -34,5 +35,6 @@
       "match": "*.{png,svg,jpg,jpg2,jpeg,gif,bmp,webm}",
       "folder": "assets"
     }
-  }
+  },
+  "dependencies": {}
 }
