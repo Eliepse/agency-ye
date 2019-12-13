@@ -36,5 +36,7 @@
       "folder": "assets"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "parallax-js": "^3.1.0"
+  }
 }

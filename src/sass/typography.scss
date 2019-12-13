@@ -7,3 +7,12 @@ html,
 body {
     font-family: $font-sserif;
 }
+
+a {
+    &:hover {
+        color: $color-primary;
+    }
+    &:active {
+        color: $color-primary;
+    }
+}

@@ -1,0 +1,52 @@
+.project {
+    display: flex;
+    margin: 16rem auto;
+    max-width: 90rem;
+}
+
+.project-thumbnail {
+    width: 100%;
+    max-width: 58rem;
+    height: 35rem;
+}
+
+.project-text {
+    flex: 1;
+    padding: 0 4.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover,
+    a:active {
+        color: $color-primary;
+    }
+}
+
+.project-type {
+    margin-bottom: .45em;
+}
+
+.project-title {
+    font-size: 2em;
+    margin-top: .25em;
+}
+
+.project[data-name="moisdudoc2018"] {
+    .thumbnail-back {
+        top: -7px;
+        left: -10px;
+    }
+
+    .thumbnail-top {
+        top: 0;
+        left: 0;
+    }
+
+    color: #13007E;
+}

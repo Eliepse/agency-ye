@@ -1,7 +1,14 @@
+// Fundations
 @import "normalize";
 @import "colors";
 @import "typography";
 @import "base";
 
+// Parts
 @import "blob";
+@import "thumbnail";
 @import "header";
+
+// Pages
+@import "homepage";
+
