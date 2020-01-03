@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YE! - Design and illustration agency</title>
+    <meta name="description" content="YE! is a design and illustration agency made with love by two people." />
+    {% include "./parts/head.html" %}
+</head>
+
+<body>
+
+    <main>
+        <header>
+            {% include "./parts/menu.html" %}
+        </header>
+
+        <section>
+            <h1 class="title">L'agence</h1>
+            <p>Créée en 2019 par l’illustratrice chinoise Yinan Chai et le designer français Élie Meignan, l’agence YE! est un mélange des cultures et des idées. Nous sommes des sensibilités qui se confrontent, des compétences qui se complètent et des expériences qui se mèlent pour former une approche unique dans les défis que nous relevons.</p>
+            <p>C’est avec modestie, honnêté que nous réalisons notre travail. Nous conseillons nos clients et avançons avec eux pour mettre en place les solutions qui leurs sont nécessaires.</p>
+        </section>
+
+    </main>
+
+    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+    <script>
+        (function (f, a, t, h, o, m) {
+            a[h] = a[h] || function () {
+                (a[h].q = a[h].q || []).push(arguments)
+            };
+            o = f.createElement('script'),
+                m = f.getElementsByTagName('script')[0];
+            o.async = 1;
+            o.src = t;
+            o.id = 'fathom-script';
+            m.parentNode.insertBefore(o, m)
+        })(document, window, '//fathom.eliepse.fr/tracker.js', 'fathom');
+        fathom('set', 'siteId', 'KQLMS');
+        fathom('trackPageview');
+    </script>
+    <!-- / Fathom -->
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

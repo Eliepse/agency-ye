@@ -1,3 +1,14 @@
+.homepage {
+    max-width: 118rem;
+    .header {
+        position: relative;
+        width: 100%;
+        min-height: 80vh;
+        text-align: center;
+        margin-bottom: 20rem;
+    }
+}
+
 .project {
     display: flex;
     margin: 16rem auto;

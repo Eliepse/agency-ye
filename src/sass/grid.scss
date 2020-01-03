@@ -1,0 +1,12 @@
+.grid {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-1 {
+    max-width: 10%;
+}
+
+.col-8 {
+    max-width: 80%;
+}

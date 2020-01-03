@@ -4,8 +4,8 @@
   "description": "The website of YE!, a design and illustration agency",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel serve src/index.html --open",
-    "build": "parcel build src/index.html --out-dir=public"
+    "dev": "parcel serve src/*.njk --open",
+    "build": "parcel build src/*.njk --out-dir=public"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,8 @@
     }
   },
   "dependencies": {
-    "parallax-js": "^3.1.0"
+    "nunjucks": "^3.2.0",
+    "parallax-js": "^3.1.0",
+    "parcel-plugin-nunjucks": "^2.2.0"
   }
 }
