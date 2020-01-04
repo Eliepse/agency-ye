@@ -5,11 +5,20 @@
     text-align: left;
     margin: 1.375em auto 6.25em auto;
     z-index: 100;
+
+    & * {
+        // border: 1px solid blue;
+    }
 }
 
-.navigation img {
-    margin: 0;
-    padding: 0;
+.navigation>a {
+    // display: inline-block; 
+}
+
+.navigation svg {
+    display: block;
+    height: 3em;
+    margin: 0 1.475em 0 0;
 }
 
 .navigation {
@@ -20,18 +29,18 @@
     }
 
     li {
-        display: flex;
-        height: 100%;
-        align-items: stretch;
-    }
+        display: inline-block;
 
-    a {
-        color: inherit;
-        text-decoration: none;
+        a {
+            display: block;
+            color: inherit;
+            text-decoration: none;
+            padding: .9em;
 
-        &:hover,
-        &:active {
-            color: $color-logo-red;
+            &:hover,
+            &:active {
+                color: $color-logo-red;
+            }
         }
     }
 }
